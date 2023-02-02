@@ -21,5 +21,13 @@ public class TextBlocksExample implements IExample{
             }
             """.formatted(age);
         System.out.println(textNew);
+        String textNewWithIndentation = """
+                {
+                  "name": "John Doe",
+                  "age": %s,
+                  "address": "Doe Street, 23, Java Town"
+                }
+            """.formatted(age);
+        System.out.println(textNewWithIndentation);
     }
 }
