@@ -1,5 +1,6 @@
 package com.isurutee.learn;
 
+import com.isurutee.learn.Records.RecordsExample;
 import com.isurutee.learn.SwitchExpressions.SwitchExpressionsExample;
 import com.isurutee.learn.TextBlocks.TextBlocksExample;
 import com.isurutee.learn.common.IExample;
@@ -11,5 +12,8 @@ public class Main {
 
         IExample switchExpressionExample = new SwitchExpressionsExample();
         switchExpressionExample.runExample();
+
+        IExample recordsExample = new RecordsExample();
+        recordsExample.runExample();
     }
 }
