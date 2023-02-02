@@ -1,7 +1,11 @@
-package com.isurutee.learn;
+package com.isurutee.learn.TextBlocks;
 
-public class TextBlocksExample implements IExample{
+import com.isurutee.learn.common.IExample;
+
+public class TextBlocksExample implements IExample {
     public void runExample() {
+        System.out.println("---------------------------Text Blocks Example--------------------------");
+
         // old syntax
         String textOld = "{\n" +
                 "  \"name\": \"John Doe\",\n" +
